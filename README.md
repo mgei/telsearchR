@@ -8,6 +8,14 @@ Returns a tibble (`dplyr`).
 
 Additionally, when `adj_formats` is set to `TRUE` (default), then the column formats are set appropriately (character, date/time, integer).
 
+## Example
+
+```
+
+telsearch(was = "Bioladen", wo = "ZH", privat = 0, firma = 1)
+
+```
+
 ## API Key
 
 Without an API key the interesting output is limited to *title* and *content*. Also tel.search limits the maximum number of results to 10 without a key.
